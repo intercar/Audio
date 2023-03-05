@@ -13,6 +13,7 @@
 		EA1CE51B29B1F9BE0005418E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1CE51929B1F9BE0005418E /* Main.storyboard */; };
 		EA1CE51D29B1F9BF0005418E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA1CE51C29B1F9BF0005418E /* Assets.xcassets */; };
 		EA1CE52029B1F9BF0005418E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1CE51E29B1F9BF0005418E /* LaunchScreen.storyboard */; };
+		EA5A5D0529B4328C002E85D1 /* Sicilian_Breeze.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA5A5D0429B4328C002E85D1 /* Sicilian_Breeze.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EA1CE51C29B1F9BF0005418E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA1CE51F29B1F9BF0005418E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA1CE52129B1F9BF0005418E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA5A5D0429B4328C002E85D1 /* Sicilian_Breeze.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sicilian_Breeze.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		EA1CE51229B1F9BE0005418E /* Audio */ = {
 			isa = PBXGroup;
 			children = (
+				EA5A5D0429B4328C002E85D1 /* Sicilian_Breeze.mp3 */,
 				EA1CE51329B1F9BE0005418E /* AppDelegate.swift */,
 				EA1CE51529B1F9BE0005418E /* SceneDelegate.swift */,
 				EA1CE51729B1F9BE0005418E /* ViewController.swift */,
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA1CE52029B1F9BF0005418E /* LaunchScreen.storyboard in Resources */,
+				EA5A5D0529B4328C002E85D1 /* Sicilian_Breeze.mp3 in Resources */,
 				EA1CE51D29B1F9BF0005418E /* Assets.xcassets in Resources */,
 				EA1CE51B29B1F9BE0005418E /* Main.storyboard in Resources */,
 			);
@@ -297,6 +301,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,6 +330,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
